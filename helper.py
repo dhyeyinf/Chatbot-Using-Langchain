@@ -54,7 +54,6 @@ def get_qa_chain():
                                         chain_type_kwargs={"prompt": PROMPT})
 
     return chain
-
 if __name__ == "__main__":
     create_vector_db()
     chain = get_qa_chain()
